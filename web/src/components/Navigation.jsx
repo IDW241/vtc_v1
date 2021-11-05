@@ -26,6 +26,10 @@ const Navigation = () => {
                         <Button>
                             <Link to="/" underline="none" className="lien_menu">Accueil</Link>
                         </Button>
+
+                        <Button>
+                            <Link to="/about" underline="none" className="lien_menu">About</Link>
+                        </Button>
                     </Toolbar>
                 </AppBar>
             </Box>
